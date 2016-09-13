@@ -40,7 +40,7 @@ You can use the IconicProvider to configure the default path to the iconic asset
   - `setAssetPath(path)` - sets the full path to the icons
     - useful if hosting the icons locally or if using a non-supported CDN
   - `setCdn(cdn)` - sets the CDN to use for the icons
-    - the icons are hosted on the following CDNs: npmcdn (default), jsdelivr
+    - the icons are hosted on the following CDNs: unpkg (default), jsdelivr
 
 ### ba-iconic (Directive)
 
@@ -61,7 +61,7 @@ You can use the OpenIconicProvider to configure the default path to the open ico
   - `setAssetPath(path)` - sets the full path to the icons
     - useful if hosting the icons locally or if using a non-supported CDN
   - `setCdn(cdn)` - sets the CDN to use for the icons
-    - the icons are hosted on the following CDNs: npmcdn (default), jsdelivr
+    - the icons are hosted on the following CDNs: unpkg (default), jsdelivr
 
 ### ba-open-iconic (Directive)
 
@@ -75,7 +75,7 @@ You can use the IoniconsProvider to configure the default path to the ionicons a
   - `setAssetPath(path)` - sets the full path to the icons
     - useful if hosting the icons locally or if using a non-supported CDN
   - `setCdn(cdn)` - sets the CDN to use for the icons
-    - the icons are hosted on the following CDNs: npmcdn (default), jsdelivr
+    - the icons are hosted on the following CDNs: unpkg (default), jsdelivr
 
 ### ba-ionicon (Directive)
 
@@ -89,7 +89,7 @@ You can use the MaterialIconsProvider to configure the default path to the mater
   - `setAssetPath(path)` - sets the full path to the icons
     - useful if hosting the icons locally or if using a non-supported CDN
   - `setCdn(cdn)` - sets the CDN to use for the icons
-    - the icons are hosted on the following CDNs: npmcdn (default), jsdelivr
+    - the icons are hosted on the following CDNs: unpkg (default), jsdelivr
 
 ### ba-material-icon (Directive)
 

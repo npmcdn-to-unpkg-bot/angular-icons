@@ -12,7 +12,7 @@
   function config($sceDelegateProvider) {
     var whitelist = $sceDelegateProvider.resourceUrlWhitelist();
     $sceDelegateProvider.resourceUrlWhitelist(whitelist.concat([
-      'https://npmcdn.com/angular-icons@0.0.0/dist/icons/open-iconic/**',
+      'https://unpkg.com/angular-icons@0.0.0/dist/icons/open-iconic/**',
       'https://cdn.jsdelivr.net/angular-icons/0.0.0/icons/open-iconic/**',
       'https://unpkg.com/angular-icons@0.0.0/dist/icons/open-iconic/**'
     ]));
@@ -38,12 +38,12 @@
 
     /**
      * Configures which CDN to use
-     * @param {string} cdn - options are 'jsdelivr', 'npmcdn' (default 'npmcdn')
+     * @param {string} cdn - options are 'jsdelivr', 'unpkg' (default 'unpkg')
      */
     this.setCdn = function (cdn) {
       switch (cdn) {
         case 'jsdelivr':
-        case 'npmcdn':
+        case 'unpkg':
         case 'unpkg':
           assetCdn = cdn;
           break;
@@ -72,8 +72,8 @@
         switch (assetCdn) {
           case 'unpkg':
             return 'https://unpkg.com/angular-icons@0.0.0/dist/icons/open-iconic/';
-          case 'npmcdn':
-            return 'https://npmcdn.com/angular-icons@0.0.0/dist/icons/open-iconic/';
+          case 'unpkg':
+            return 'https://unpkg.com/angular-icons@0.0.0/dist/icons/open-iconic/';
           case 'jsdelivr':
             return 'https://cdn.jsdelivr.net/angular-icons/0.0.0/icons/open-iconic/';
           default:
